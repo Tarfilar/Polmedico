@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!ELEMENT modul (id, min_picture, title, description_short, picture, description)>
+   <!ELEMENT id (#PCDATA)>
+   <!ELEMENT min_picture (#PCDATA)>
+   <!ELEMENT title (#PCDATA)>
+   <!ELEMENT description_short (#PCDATA)>
+   <!ELEMENT picture (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>

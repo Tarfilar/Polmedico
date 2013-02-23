@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Zdjęcia w nagłówku strony"
+		key="TOPPIC"
+		table="flash_images_top"
+		primaryField="id"
+        listJoin="flash_images_top fit"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+    	<field name="name" description="Nazwa" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="B"  dictionary="YesNo" sortable="0" langreadonly="1" show="FL" search="" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="link" description="Link (caly z http://...)" type="C" sortable="0" show="FL" required="" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="pic1" description="Obrazek" descriptionForm="Obrazek (format *.jpg) rozmiar 113x99px" type="P" dir="templates/atrakcje/" sortable="0" show="FL" xml="1" thsize="113" medsize="113" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

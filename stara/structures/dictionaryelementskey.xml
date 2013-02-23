@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="DICTELKEY"
+		table="dictionarieselements"
+		primaryField="id"
+        listJoin="dictionarieselements dictel"
+        orderSql="lp"
+		languages="1"
+        />
+
+	<fields>
+		<field name="id" description="L.p." type="I" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="keyvalue" description="Klucz" type="C"  sortable="1" show="FL" required="1" langreadonly="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="value" description="Opis" type="C"  sortable="0" show="FL" search="S" required="1" align="L" readonly="0" readonlyedit="1" formwidth="60" formheight="10" />
+		<field name="level" description="Poziom" type="V"  show="" required="1" align="L" langreadonly="1" formwidth="60" formheight="10" />
+	</fields>
+</view>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Klienci - użytkownicy" 
+		key="USERS"
+		table="cms_users"
+		primaryField="id"
+        listJoin="cms_users us" 
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="firstname" description="Imię" type="C"  sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="surname" description="Nazwisko" type="C"  sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="companyname" description="Nazwa firmy" type="C"  sortable="1" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="nip" description="Nip" type="C"  sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="login" description="Login" type="C"  sortable="0" show="FL" search="S" required="1" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+		<field name="email" description="E-mail" type="C"  sortable="1" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="phone" description="Telefon" type="C"  sortable="1" show="FL" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="city" description="Miasto" type="C"  sortable="1" show="FL" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="address" description="Adres" type="C"  sortable="1" show="F" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="postalcode" description="Kod pocztowy" type="C"  sortable="1" show="FL" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" sortable="1" show="FL" search="" required="1" align="C" formwidth="60" formheight="10" />
+		<field name="caption" description="&lt;b&gt;Dane wysyłki&lt;/b&gt;" type="E" show="FN" />
+		<field name="send_firstname" description="Imię (wysyłka)" type="C"  sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="send_surname" description="Nazwisko (wysyłka)" type="C" sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="send_city" description="Miasto (wysyłka)" type="C" sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="send_postalcode" description="Kod pocztowy (wysyłka)" type="C" sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="send_address" description="Adres (wysyłka)" type="C" sortable="1" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="dtactivation" listSql="SUBSTRING(dtactivation,1,10)" description="Data rejestr." type="D"  default="%actual_date%" sortable="0" show="F" readonlyedit="1" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="dtlastlogin" listSql="SUBSTRING(dtlastlogin,1,10)" description="Data ost. logowania" type="D"  default="%actual_date%" sortable="0" show="F" readonlyedit="1" required="0" search="S" align="L" formwidth="60" formheight="10" />
+
+		<field name="caption" description="Wypełnić przy zmianie hasła lub dodawaniu nowego użytk." type="E" sortable="1" show="FN" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="password" description="Hasło" type="W"  sortable="0" show="F" search="S" required="N" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+		<field name="password2" description="Powtórz hasło" type="W" sortable="0" show="NF" required="N" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+
+	</fields>
+</view>
+

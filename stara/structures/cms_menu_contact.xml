@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<view>
+	<overallSettings
+		key="CMS_MENU_CONTACT"
+		table="cms_contact"
+		primaryField="id"
+        listJoin="cms_contact c_contact"
+		languages="1"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+		<field name="title" description="Tytuł" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="textvalue" description="Tresc html nad formularzem" type="A" toolbarset="Basic" show="F" align="L" formwidth="500" formheight="300" />
+		<field name="isformshown" description="Czy pokazać formularz kontaktu?&lt;br&gt;Adresy e-mail w słownikach" langreadonly="1" type="V"  dictionary="YesNo" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

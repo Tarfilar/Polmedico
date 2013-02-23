@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Menu górne"
+		key="CMS_MENUTOP"
+		table="cms_menu"
+		primaryField="id"
+        listJoin="cms_menu c_menu"
+        whereSql=" c_menu.place='MENUTOP'"
+        orderSql="lp"
+		languages="1"
+		langtableprefix = "c_menu"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+		<field name="type" description="Typ" type="V" dictionary="CMS_MenuTypes" default="HTMLTEXT" sqlFilter=" keyvalue NOT IN ('PRODUCTS.NEWS', 'PRODUCTS.PROMO', 'PRODUCTS')" langreadonly="1" sortable="0" show="LF" required="1" align="C" formwidth="60" formheight="10" />
+		<field name="name" description="Nazwa wyświetlana" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" langreadonly="1" sortable="0" show="FL" search="" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="ismain" description="Str. główna?" type="V"  dictionary="YesNo" sortable="0" langreadonly="1" show="FL" search="" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="keywords" description="Słowa kluczowe dla strony" type="T" show="F" align="L" xml="1" formwidth="60" formheight="5" />
+		<field name="description" description="Opis dla strony (description)" type="T" show="F" align="L" xml="1" formwidth="60" formheight="5" />
+		<field name="text1" description="Tekst naglówka 1 linia" type="T" show="F" align="L" xml="1" formwidth="60" formheight="5" />
+		<field name="text2" description="Tekst naglówka 2 linia" type="T" show="F" align="L" xml="1" formwidth="60" formheight="5" />
+		<field name="place" description="Miejsce" type="H" sortable="0" show="F" search="" default="MENUTOP" langreadonly="1" required="0" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

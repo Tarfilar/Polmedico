@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Moje zamówienia"
+		key="PORD"
+		table="cms_orders"
+		primaryField="id"
+        orderSql="dt DESC"
+		listJoin="cms_orders ord LEFT JOIN cms_users us ON ord.userid=us.id" 
+        />
+    <fields>
+		<field name="id" listSql="ord.id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="id" listSql="ord.id" description="ID" type="C" dictionary="" sortable="1" show="L" required="" align="C"/>
+		<field name="dt" description="Data zam." type="S" sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="status" description="Status" type="V"  dictionary="CMS_OrdersStatus" sortable="1" show="FL" search="" required="1" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+		<field name="address" listSql="ord.address" description="Adr. wysyłki." type="A" toolbarset="Basic" show="FL" align="L" xml="0" formwidth="500" formheight="200" />
+		<field name="pricesum" description="Suma zam." type="N"  sortable="1" show="FL" required="1" align="R" formwidth="20" formheight="10" />
+		<field name="notes" description="Uwagi klienta" type="T" show="F" search="" required="0" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

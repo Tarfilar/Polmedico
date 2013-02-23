@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gallery SYSTEM "mult.dtd">
+
+<gallery>  
+
+  <photos>  
+  	<id>1</id>
+	<img_small>gallery/1/main.png</img_small> 
+	<name>Tytul galerii</name>  
+	<folder>gallery/1/big</folder>  
+	<folder1>gallery/1/min</folder1>
+  </photos> 
+  <photos>  
+  	<id>2</id>
+	<img_small>gallery/2/main.png</img_small> 
+	<name>Tytul galerii</name>  
+	<folder>gallery/2/big</folder>  
+	<folder1>gallery/2/min</folder1>
+  </photos> 
+  <photos>  
+  	<id>3</id>
+	<img_small>gallery/3/main.png</img_small> 
+	<name>Tytul galerii</name>  
+	<folder>gallery/3/big</folder>  
+	<folder1>gallery/3/min</folder1>
+  </photos> 
+  <photos>  
+  	<id>4</id>
+	<img_small>gallery/4/main.png</img_small> 
+	<name>Tytul galerii</name>  
+	<folder>gallery/4/big</folder>  
+	<folder1>gallery/4/min</folder1>
+  </photos> 
+  <photos>  
+  	<id>5</id>
+	<img_small>gallery/5/main.png</img_small> 
+	<name>Tytul galerii</name>  
+	<folder>gallery/5/big</folder>  
+	<folder1>gallery/5/min</folder1>
+  </photos> 
+        
+</gallery>  

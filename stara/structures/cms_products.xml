@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		name="Katalog produktów"
+		key="CMS_PRODUCTS"
+		table="cms_products"
+		primaryField="id"
+        listJoin="cms_products c_pr 
+			LEFT JOIN cms_products_categories cpc ON c_pr.category=cpc.id 
+			LEFT JOIN cms_brands cb ON c_pr.brand=cb.id"
+        orderSql="c_pr.lp"
+		xmlGeneration="1" 
+		xmlfile="cms_products.xml" 
+		lp="1"
+        />
+    <fields>
+		<field name="id" listSql="c_pr.id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="name" listSql="c_pr.name" description="Nazwa" type="C"  sortable="1" show="FL" required="1" search="S" xml="1" align="L" formwidth="60" formheight="10" />
+		<field name="ind" description="Index zewn." type="C"  sortable="1" show="FL" required="" search="S" xml="1" align="L" formwidth="60" formheight="10" />
+		<field name="category" listSql="cpc.name" description="Kategoria" type="O" structure="cms_products_categories" sqlDescription="name" sqlOrder="lp" strLevel="1" search="S" sortable="0" show="LF" required="1" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="brand" listSql="cb.name" description="Producent" type="O" structure="cms_brands" sqlDescription="name" search="S" sortable="0" show="LF" required="1" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" listSql="c_pr.isactive" description="Aktywny?" type="B" sortable="0" show="FL" search="" required="" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="available" description="Dostępny?" type="B" sortable="0" show="FL" search="" required="" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="isnew" description="Nowość?" type="B" sortable="1" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="bestseller" description="Bestseller?" type="B" sortable="1" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="price" description="Cena" type="N" show="FL" align="L" sortable="1" formwidth="60" formheight="10" />
+		<field name="ispromo" description="Promocja?" type="B" sortable="1" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="price_promo" description="Cena prom." type="N" show="FL" align="L" formwidth="60" formheight="10" />
+		<field name="sizes" description="Rozmiary" descriptionForm="Rozmiary ( wartości oddzielone znakiem : )" type="C"  sortable="0" show="F" required="" search="S" xml="1" align="L" formwidth="100" formheight="10" />
+		<field name="desclong" description="Opis pełny (szczegóły produktu)" type="A" toolbarset="Basic" show="F"  align="L" xml="1" formwidth="400" formheight="400" />
+		<field name="keywords" description="Słowa kluczowe" type="T" show="F" align="L" xml="0" formwidth="60" formheight="50" />
+		<field name="pic1" listSql="c_pr.pic1" description="Obrazek 1" type="P" sortable="0" show="FL" bigsize="800" xml="1" thsize="128" thsquare="1" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="pic2" description="Obrazek 2" type="P" sortable="0" show="F" bigsize="800" xml="1" thsize="128" thsquare="1" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="pic3" description="Obrazek 3" type="P" sortable="0" show="F" bigsize="800" xml="1" thsize="128" thsquare="1" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="pic4" description="Obrazek 4" type="P" sortable="0" show="F" bigsize="800" xml="1" thsize="128" thsquare="1" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="pic5" description="Obrazek 5" type="P" sortable="0" show="F" bigsize="800" xml="1" thsize="128" thsquare="1" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+	<filters>
+	</filters>
+</view>
+

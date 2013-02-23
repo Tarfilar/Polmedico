@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Producenci"
+		key="PRB"
+		table="cms_brands"
+		primaryField="id"
+        listJoin="cms_brands cb"
+        orderSql="lp"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

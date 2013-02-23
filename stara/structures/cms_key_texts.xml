@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		name="Teksty specjalne"
+		key="CMS_KT"
+		table="cms_key_texts"
+		primaryField="id"
+        listJoin="cms_key_texts kt"
+        xmlGeneration="0" 
+		xmlfile="" 
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="keyvalue" description="Klucz" type="C"  sortable="1" show="FL" required="1" search="S" readonlyedit="1" xml="1" align="L" formwidth="30" formheight="10" />
+		<field name="textname" description="Nazwa tekstu" type="C"  sortable="1" show="FL" required="1" search="S" readonlyedit="1" xml="1" align="L" formwidth="30" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="B" sortable="1" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="textvalue" description="Tekst" type="A" toolbarset="Default" show="F"  align="L" xml="1" formwidth="600" formheight="600" />
+	</fields>
+	<filters>
+	</filters>
+</view>
+

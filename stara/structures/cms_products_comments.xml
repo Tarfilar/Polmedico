@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		name="Komentarze do produtków"
+		key="CMS_COMM"
+		table="cms_comments"
+		primaryField="id"
+        listJoin="cms_comments c_c LEFT JOIN cms_products pr ON c_c.entity_id=pr.id"
+        orderSql="adddate DESC"
+		whereSql="c_c.structure='PRODUCTS'"
+		xmlGeneration="0" 
+		xmlfile="cms_products.xml" 
+        />
+    <fields>
+		<field name="id" listSql="c_c.id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="entity_id" listSql="concat(pr.name, ' (',pr.id,')')" description="Produkt" type="O" sqlDescription="concat(pr.name, ' (',pr.id,')')" structure="cms_products pr" sortable="0" show="FL" required="1" search="S" xml="1" align="L" formwidth="60" formheight="10" />
+		<field name="fromname" description="Podpis" type="C" sortable="0" search="S" show="LF" required="1" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="textvalue" description="Treść" type="T" show="FL" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" listSql="c_c.isactive" description="Aktywny?" type="B" sortable="0" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="adddate" description="Data" type="D" sortable="1" show="FL" search="" required="1" langreadonly="1" align="C" formwidth="60" formheight="10" />
+		<field name="ip" description="IP" type="C" sortable="0" show="FL" search="" required="0" langreadonly="1" align="C" formwidth="60" formheight="10" />
+	</fields>
+	<filters>
+	</filters>
+</view>
+

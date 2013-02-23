@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="DICTS"
+		table="dictionariesstructures"
+		primaryField="id"
+        listJoin="dictionariesstructures dicts"
+		lp="1"
+        />
+
+	<fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="dictionaryId" description="Słownik" type="H" default="%dictionaryId%" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C" sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Opis" type="C" sortable="0" show="FL" search="S" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="fieldtype" description="Typ" type="V" dictionary="FieldTypes" sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="fieldlength" description="Długość" type="C" sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="fieldheight" description="Il linii" type="C" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="defaultvalue" description="Default" type="C" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

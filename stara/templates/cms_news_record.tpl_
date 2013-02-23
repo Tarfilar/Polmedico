@@ -1,0 +1,42 @@
+<!-- BEGIN NEWSRECORD -->
+<h1>{NEWSRECORD.TITLE}</h1>
+<br />
+{NEWSRECORD.DESCSHORT}
+<br/>
+<a class="mm2" href="{NEWSRECORD.MORE}">{NEWSRECORD.MORETEXT}</a>
+<br /><br />
+<!-- END NEWSRECORD -->
+<!-- BEGIN NEWSRECORDRIGHT -->
+
+<h2>{NEWSRECORDRIGHT.TITLE}</h2>
+<br />
+{NEWSRECORDRIGHT.DESCSHORT}
+<br />
+<a class="mm1" href="{NEWSRECORDRIGHT.MORE}">{NEWSRECORDRIGHT.MORETEXT}</a>
+<br />
+<br />
+<!-- END NEWSRECORDRIGHT -->
+<!-- BEGIN NEWSRECORDDETAILS -->
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="txt-nagl"><h1>{NEWSRECORDDETAILS.TITLE}</h1></td>
+		</tr>
+        <tr>
+        	<td class="txt-data">{NEWSRECORDDETAILS.DATETEXT}: {NEWSRECORDDETAILS.DATE}
+			</td>
+        </tr>
+		<tr>
+    	    <td>
+				{NEWSRECORDDETAILS.DESCSHORT}
+			</td>
+		</tr>
+		<tr>
+    	    <td>
+				{NEWSRECORDDETAILS.DESCLONG}
+			</td>
+		</tr>
+	</table>
+	<br />
+<!-- END NEWSRECORDDETAILS -->
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="DICT"
+		table="dictionaries"
+		primaryField="id"
+        listJoin="dictionaries dict"
+        />
+
+	<fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C"  sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Opis" type="C"  sortable="0" show="FL" search="S" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="isstructural" description="Czy strukturalny?" type="V" dictionary="YesNo" sortable="1" show="FL" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="haskey" description="Czy klucz?" type="V"  dictionary="YesNo" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="issorted" description="Czy sortowany po lp?" type="V"  dictionary="YesNo" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="issystem" description="Czy systemowy?" type="V"  dictionary="YesNo" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="isdefined" description="Czy definiowalny?" type="V"  dictionary="YesNo" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Języki" 
+		key="LA"
+		table="cms_languages"
+		primaryField="id"
+        listJoin="cms_languages c_l"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="keyvalue" description="Klucz" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="name" description="Nazwa wyświetlana" type="C"  sortable="0" show="FL" xml="1" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" sortable="0" show="FL" search="" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="isnative" description="Główny?" type="V"  dictionary="YesNo" sortable="0" show="FL" search="" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="encoding" description="Kodowanie" type="C"  sortable="0" show="FL" xml="1" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="dbencoding" description="Kodowanie bazy" type="C"  sortable="0" show="FL" xml="1" required="1" search="S" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Polmedico</title>
+<script src="assets/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="pm.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="sajt">
+	<div class="fl"><script type="text/javascript">AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0','data','images/top.swf','width','990','height','323','id','top','movie','images/top','bgcolor','#002480','quality','high','menu','false','wmode','window');</script><noscript><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" data="images/top.swf" width="990" height="323" id="top"><param name="movie" value="images/top.swf" /><param name="bgcolor" value="#002480" /><param name="quality" value="high" /><param name="menu" value="false" /><param name="wmode" value="window" /><param name="flashvars" value="nagl=nowości" /></object></noscript></div>
+		<div class="menu">
+			<div class="menuel">Aktualności</div><div class="fl"><img src="images/menu_r.gif" width="11" height="33" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Zakres usług</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Gwarancje i ceny</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Zespół</a></div>
+			<div class="menuel">O nas</div><div class="fl"><img src="images/menu_r.gif" width="11" height="33" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Lokalizacja</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Dla prasy</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Praca</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+			<div class="menuel2"><a class="mm5" href="">Kontakt</a></div><div class="fl"><img src="images/menu_p.png" alt="polmedico" /></div>
+		
+		
+		</div>
+	<div class="fl"><script type="text/javascript">AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0','data','images/naglowek.swf','width','990','height','60','id','nagl','movie','images/nagl','bgcolor','#FFFFFF','quality','high','menu','false','wmode','transparent','flashvars','nagl=nowości' );</script><noscript><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" data="images/nagl.swf" width="990" height="60" id="nagl"><param name="movie" value="images/nagl.swf" /><param name="bgcolor" value="#FFFFFF" /><param name="quality" value="high" /><param name="menu" value="false" /><param name="wmode" value="transparent" /><param name="flashvars" value="nagl=nowości" /></object></noscript></div>
+		<div class="main">
+			<div class="left">
+				<div class="m1"><a class="mm5" href="link">Pierwszy news</a></div>
+				<div class="m1"><a class="mm5" href="link">Drugi news</a></div>
+				<div class="m1"><a class="mm5" href="link">Poziom pierwszy</a></div>
+				<div class="m2"><a class="mm5" href="link">Poziom drugi menu z długim dość tekstem w tytule</a></div>
+				<div class="m3"><a class="mm5" href="link">Poziom trzeci</a></div>
+				<div class="m3"><a class="mm5" href="link">Link</a></div>
+				<div class="m2"><a class="mm5" href="link">Podelement</a></div>
+				
+				
+				<div class="fl"><img src="images/nagl_polecnas.jpg" width="246" height="50" alt="polmedico" /></div>
+				<div class="txt1">Jesteś zadowolona(y) z naszych usług? Poleć je swoim znajomym - wpisz poniżej ich adres e-mail a my wyslemy zaproszenie w Twoim imieniu!</div>
+				<div class="txt1"><input name="Input" type="text" class="pole1" value="docelowy adres e-mail" /></div>
+				<div class="txt1"><input name="Input" type="text" class="pole1" value="Twój podpis" /></div>
+				<div class="txt1"><div class="fr"><input class="but1" type="submit" name="Submit" value="polecam!" /></div></div>
+				
+				<div class="fl"><img src="images/nagl_subskrypcja.jpg" width="246" height="50" alt="polmedico" /></div>
+				<div class="txt1">Jeśli chcesz w przyszłości otrzymywać bieżące informacje i nowości w ofercie naszej polikliniki - wprowadź poniżej swój adres e-mail.</div>
+				<div class="txt1"><input name="Input" type="text" class="pole1" value="adres e-mail" /></div>
+				<div class="txt1">
+					<div class="fl"><input class="but1" type="submit" name="Submit" value="rezygnuję" /></div>
+					<div class="fr"><input class="but1" type="submit" name="Submit" value="zapisz mnie" /></div>
+				</div>
+				
+			</div>
+			
+			<div class="center">
+				<div class="fl" style="width: 340px"><img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a>
+				</div>
+				<div class="fr" style="width: 340px">
+				<img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a><br /><br /><br />
+				  <img class="pix" src="images/test.jpg" width="338" height="50" alt="polmedico" />
+				  <h1>Kompleksowe leczenie</h1>
+				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In id augue. Aliquam fermentum. Vivamus nec diam. Sed fringilla tellus ac nisi. Morbi pharetra auctor nibh. Nunc sit amet lectus. Maecenas neque<br /><a href="">zapraszamy dalej</a>
+				
+				
+				
+				</div>
+			
+			
+			</div>
+		
+		</div>
+	<div class="fl"><img src="images/stopka1.jpg" width="990" height="146" alt="polmedico" /></div>
+		<div class="stopka">
+			<div class="fl">POLMEDICO &copy; 2009, wszelkie prawa zastrzezone.<br />webcreator, cms: <a href="http://www.ibisal.com/" target="_blank">ibisal.com</a></div>
+			<div class="fr">partnerzy</div>
+		</div>
+	<div class="fl"><a href="http://www.nfz.gov.pl" target="_blank"><img src="images/logo1.jpg" width="115" height="74" border="0" alt="polmedico" /></a></div>
+	<div class="fl"><a href="http://euro26.pl/" target="_blank"><img src="images/logo2.jpg" width="48" height="74" border="0" alt="polmedico" /></a></div>
+	<div class="fl"><a href="http://www.generali.pl/" target="_blank"><img src="images/logo3.jpg" width="131" height="74" border="0" alt="polmedico" /></a></div>
+	<div class="fl"><a href="http://www.signal-iduna.pl/" target="_blank"><img src="images/logo4.jpg" width="186" height="74" border="0" alt="polmedico" /></a></div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Bloczki w aktualnościach"
+		key="CMS_REC"
+		table="cms_records"
+		primaryField="id"
+        listJoin="cms_records c_rec"
+
+        orderSql="lp"
+        xmlGeneration="0"
+        xmlfile="cms_news.xml"
+		languages="1"
+		langtableprefix = "c_rec"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="name" description="Tytuł" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Treść" type="A" toolbarset="Default" show="F" align="L" xml="1" formwidth="750" formheight="700" />
+		<field name="picture" description="Obrazek" type="P" sortable="0" show="FL" bigsize="800,," xml="1" thsize="330,128,1" medsize="330,128,1" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="B" sortable="0" show="FL" search="" required="" langreadonly="1" align="C" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

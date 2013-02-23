@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Ustawienia systemowe"
+		key="CONF"
+		table="cms_conftable"
+		primaryField="id"
+        listJoin="cms_conftable con"
+        xmlGeneration="0"
+		languages="1"
+		langtableprefix = "con"
+		symetric="1"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="keyvalue" description="Klucz" type="C"  sortable="0" show="FL" langreadonly="1" required="" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="value" description="Wartość" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Opis" type="C"  sortable="0" show="FL" langreadonly="1" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" langreadonly="1" sortable="0" show="FL" search="" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="issystem" description="Systemowe?" type="V"  dictionary="YesNo" langreadonly="1" sortable="0" show="FL" search="" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

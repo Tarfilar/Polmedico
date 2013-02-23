@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE range SYSTEM "mult.dtd">
+
+<range>  
+  <modul>  
+  	<id>1</id>
+	<min_picture>range/img/1.png</min_picture> 
+	<title>Chirurgia stomatologiczna</title>  
+	<description_short>Zajmuje się leczeniem operacyjnym jamy ustnej. W ramach tej specjalizacji wykonujemy szereg zabiegów, które są wykonywane przez naszych stomatologów - chirurgów.</description_short> 
+	<picture>range\img\chirurgia.jpg</picture>
+	<description> <![CDATA[ Chirurgia stomatologiczna zajmuje się leczeniem operacyjnym jamy ustnej.
+ W Poliklinice Stomatologicznej " Pod Szyndzielnią"  wykonujemy  następujące procedury w zakresie chirurgii stomatologicznej :
+             <br /><br />
+<li>ekstrakcje (również zębów zatrzymanych, niewyrzniętych i " mądrości "),  </li>
+<li>odsłanianie zębów zatrzymanych w łuku,                                     </li>
+<li>plastyka połączeń jamy ustnej z zatoką szczękową,                             </li>
+<li>leczenie ropni oraz przetok ustno - twarzowych,                                          </li>
+<li>resekcje wierzchołka korzeni, hemisekcje,                                                    </li>
+<li>zabiegi usunięcia włókniaków, nadziąślaków, mukoceli i innych zmian błony śluzowej, </li>
+<li>chirurgiczne przygotowanie jamy ustnej do leczenia protetycznego,                                                </li>
+<li>podcinanie wędzidełek warg i języka,                                                                               </li>
+<li>zabiegi z zakresu implantoprotetyki stomatologicznej,      </li>
+<li>operacyjne usuniecie torbieli twarzoczaszki,         </li>
+<li>zabiegi z zakresu chirurgii periodontologicznej.  </li>     ]]>
+  </description>
+  </modul>   
+
+
+
+  <modul>  
+  	<id>2</id>
+	<min_picture>range/img/2.png</min_picture>
+	<title>Implantologia</title>  
+	<description_short>Obejmuje wstawianie implantów, które pozwala odbudować pojedyncze zęby lub umocować protezę, znacznie zwiększając komfort jej użytkowania. Stosujemy implanty niemieckiej fimy Friatec oraz amerykańskiej firmy 3i.</description_short> 
+	<picture>range\img\implantologia.jpg</picture>
+	<description>
+
+             <![CDATA[
+         <b>Implantologia</b> zajmuje się wszczepami (implantami), które są wprowadzane w kość szczęki lub żuchwy.<br /><br />
+         <b>Implanty</b> zastępują korzenie własnych zębów.Takie rozwiązanie pozwala odbudować pojedyncze zęby lub umocować protezę, znacznie zwiększając komfort jej użytkowania. Rozwiązanie to dodatkowo eliminuje ból, który może wystąpić w przypadku dopasowywania protez, a ich wygląd i odczucia są takie same, jakbyśmy posiadali swoje naturalne zęby. Rekonstrukcja pojedynczych koron na implantach eliminuje natomiast konieczność szlifowania własnych zdrowych zębów pod korony czy mosty.
+<br /><br />
+W <b>Poliklinice " Pod Szyndzielnią"</b> stosujemy implanty niemieckiej fimy Friatec oraz amerykańskiej firmy 3i. Oba systemy są sprawdzone podczas wieloletnich badań i obserwacji klinicznych, co gwarantuje Państwu bezpieczeństwo oraz międzynarodową gwarancję.
+<br /><br />
+Wykorzystanie nowoczesnych technik planowania przedzabiegowego z wykorzystaniem tomografii komputerowej i zaawansowanych informatycznych programów chirurgicznej nawigacji ( Simplant SurgiGide/ Materialise) oraz zastosowanie technik chirurgii ultradżwiękowej (PiezoSurgery/Mectron) podczas zabiegu pozwala nam skrócić czas implantacji do miniumum oraz poprawić samopoczucie pacjenta w okresie pooperacyjnym.
+                ]]>
+          </description>
+  </modul>
+
+
+  <modul>  
+  	<id>3</id>
+	<min_picture>range/img/3.png</min_picture>
+	<title>Protetyka</title>  
+	<description_short>W ramach tej specjalizacji zajmujemy się odbudową i uzupełnieniem braków zębowych. Z największą precyzją dobieramy  optymalne  rozwiązania  protetyczne dla Twoich zębów, łącząc trwałość i estetykę wykonywanych przez nas uzupełnień i korekt.</description_short> 
+	<picture>range\img\protetyka.jpg</picture>
+	<description>
+
+            <![CDATA[
+     <b>Protetyka</b> to dział, który zajmuje się odbudową i uzupełnieniem  braków zębowych.<br /><br />
+
+Korony i mosty to rodzaj stałych, czyli nie wyciąganych z ust uzupełnień protetycznych. Jeśli w wyniku próchnicy czy złamania możemy wykorzystać część korony zęba, lub chociaż jego korzeń, wtedy rozwiązaniem jest pojedyncza korona.
+Jeżeli został utracony cały ząb, to wówczas potrzebny jest most, czyli korony połączone ze sobą. Trwałość koron i mostów  zależy od higieny jamy ustnej oraz regularnych wizyt kontrolnych. Licówki to rodzaj porcelanowych "tipsów", które nakleja się na zęby. Dzięki nim można poprawić kształt i kolor zębów oraz uatrakcyjnić swój uśmiech. Wymagają spiłowania tylko niewielkiej ilości szkliwa od strony zewnętrznej zęba.
+<br /><br />
+Uzupełnienia ruchome to protezy, które pacjent może sam zakładać i zdejmować. W zależności od rozległości uzupełnionych braków zębowych, protezy ruchome dzieli się na protezy częściowe i całkowite.
+<br /><br />
+<b>Poliklinika " Pod Szyndzielnią"</b>  posiada w swojej ofercie wszelkie możliwe rozwiązania z zakresu protetyki stomatologicznej. Niektóre z oferowanych przez nas rozwiązan to:
+<br /><br />
+<li>korony i mosty pełnoceramiczne LAVA,  </li>
+<li>korony teleskopowe,                    </li>
+<li>protetyka na implantach,               </li>
+<li>protezy elastyczne,                    </li>
+<li>licówki, wkłady koronowe porcelanowe. </li>
+ <br /><br />
+Z największą pieczołowitością dobieramy  optymalne  rozwiązania  protetyczne dla Twoich zębów, łącząc przy tym trwałość i estetykę wykonywanych przez nas uzupełnień i korekt. Dzięki ścisłej współpracy lekarzy z technikami zapewniamy wysoką jakość wszystkich wykonywanych przez nas prac protetycznych.
+Na stałe uzupełnienia protetyczne udzielamy <b>2-LETNIEJ GWARANCJI</b>.
+      ]]>
+      </description>
+
+
+  </modul>
+
+
+
+
+
+
+
+
+
+    
+  <modul>  
+  	<id>4</id>
+	<min_picture>range/img/4.png</min_picture>
+	<title>Stomatologia estetyczna</title>  
+	<description_short>Zajmuje się poprawą wyglądu przede wszystkim zębów, ale i dziąseł. W efekcie przywraca lub stwarza pacjentowi piękny uśmiech.</description_short> 
+	<picture>range\img\estetyczna.jpg</picture>
+	<description>
+             <![CDATA[
+
+        <b>Stomatologia estetyczna</b> zajmuje się poprawą wyglądu przede wszystkim zębow, ale i dziąseł. W efekcie przywraca lub stwarza pacjentowi piękny uśmiech.
+        <br /><br />
+Najpopularniejszymi zabiegami i metodami stosowanymi dla poprawy estetyki uzębienia są:
+<br /><br />
+<li>oczyszczanie i piaskowanie zębów,         </li>
+<li>wybielanie,                                 </li>
+<li>licówki i korony ceramiczne,                </li>
+<li>zabiegi periodontologiczne,                  </li>
+<li>ortodontyczna korekta ustawienia zębów.    </li>
+              ]]>
+
+          </description>
+  </modul>
+
+     
+  <modul>  
+  	<id>5</id>
+	<min_picture>range/img/5.png</min_picture>
+	<title>Endodoncja</title>  
+	<description_short>To dział stomatologii zajmujący się leczeniem kanałowym. Dzięki wykorzystaniu najnowocześniejszym technologii zapewniamy krótki czas tego typu zabiegów oraz gwarancję skuteczności leczenia.</description_short> 
+	<picture>range\img\endodoncja.jpg</picture>
+	<description>
+
+           <![CDATA[
+
+      <b>Endodoncja</b> to dział stomatologii zajmujący się leczeniem kanałowym. Najbardziej wewnętrzną część zęba stanowi miazga. Podobnie jak inne żywe tkanki w organizmie człowieka, może ulec zapaleniu, które objawia się bólem. Najczęstszą przyczyną zapalenia miazgi jest głęboka próchnica. Leczenie kanałowe jest konieczne w przypadku nieodwracalnego zapalenia miazgi i uszkodzenia nerwu. W tej sytuacji należy usunąć z kanału korzeniowego resztki nerwu oraz bakterie.
+ <br /><br />
+Oczyszczenie kanałów jest trudnym zadaniem ze względu na ich małe rozmiary. Im dokładniej są oczyszczone, tym lepszy jest efekt leczenia i ząb może dłużej przetrwać w jamie ustnej. Użycie mikroskopu, dzięki zaawansowanemu układowi optycznemu i oświetleniowemu pozwala lekarzowi uzyskać doskonałą widoczność w najtrudniej dostępnych miejscach. Dzięki zastosowaniu mikroskopu możliwe jest odnalezienie wszystkich kanałów, w tym dodatkowych oraz opracowanie nawet niedrożnych kanałów.
+ <br /><br />
+Dysponując dodatkowo systemem narzędzi ultradźwiękowych lekarz może wykonać zabiegi mikrochirurgiczne i mikroendodontyczne ratujące zęby przed nieuniknioną wcześniej ekstrakcją.
+Zastosowanie w leczeniu kanałowym endometru pomaga precyzyjnie określić długość kanału i eliminuje konieczność wykonywania dodatkowych zdjęć rentgenowskich, co skraca czas zabiegu i ogranicza napromieniowanie pacjenta.
+   <br /><br />
+Dzięki nowoczesnym metodom leczenia endodontycznego lekarz ma pewność, że zakażona tkanka została w całości usunięta a kanał po prawidłowym opracowaniu przez narzędzia, wypełniony po sam wierzchołek, co warunkuje wysoką skuteczność leczenia.
+           ]]>
+       </description>
+  </modul>
+
+     
+  <modul>  
+  	<id>6</id>
+	<min_picture>range/img/6.png</min_picture>
+	<title>Periodontologia</title>  
+	<description_short>To  dziedzina stomatologii zajmująca się zarówno leczeniem, jak i profilaktyką stanu naszego przyzębia. Dlatego uczulamy naszych pacjentów, że  higiena i technika mycia zębów to pierwsza bariera, jaka chroni  nas  przed  różnymi chorobami przyzębia.</description_short> 
+	<picture>range\img\periodontologia.jpg</picture>
+	<description>
+          <![CDATA[
+<b>Periodontologia</b> to leczenie chorób przyzębia i błony śluzowej jamy ustnej.
+<br /><br />
+Do bardzo często występujących problemów stomatologicznych  zaliczamy:<br /><br />
+<li>krwawienie dziąseł,                 </li>
+<li>rozchwianie zębów,                  </li>
+<li>kamień nazębny  (złogi  nazębne)  </li>
+<li>przykry zapach z ust.                 </li>
+<br /><br />
+Tym właśnie zajmuje się periodontologia.
+ <br /><br />
+Ta  dziedzina stomatologii zajmuje się zarówno leczeniem, jak i profilaktyką stanu naszego przyzębia. Dlatego uczulamy naszych pacjentów, że  higiena i technika mycia zębów to pierwsza bariera, jaka chroni  nas  przed  różnymi chorobami przyzębia.
+  <br /><br />
+Pierwsze objawy problemów z dziąsłami to najczęściej ich widoczne krwawienie w czasie codziennego szczotkowania. Nie  przywiązywanie  wagi  do tych charakterystycznych sygnałów,  doprowadza   do  pogłębienia  się  stanu zapalnego, a ten z kolei jest wywoływany przez namnażające się,  na  naszych zębach i wewnątrz kieszonek dziąsłowych, bakterie.  Wstępne  leczeni  chorób przyzębia polega na bardzo dokładnym usuwaniu złogów nazębnych, wygładzaniu powierzchni korzeni, zwróceniu uwagi na jakość i szczelność plomb oraz kontroli ogólnego stanu uzębienia.
+  <br /><br />
+Stan naszych zębów może ulec diametralnemu pogorszeniu jeżeli zbagatelizowaliśmy higienę i wstępne leczenie, a gromadzące się bakterie doprowadzą do niszczenia tkanek utrzymujących ząb w kości, a w efekcie rozchwiania zęba - co z kolei jest już  określane  jako  bardzo  zaawansowany stan  chorobowy. Leczenie w tym przypadku polega na unieruchomieniu (zszynowaniu) zębów i dokładnym wyczyszczeniu ze złogów kieszonek zębowych. Zdarza się że niezbędny staje się wykonanie różnego rodzaju zabiegów z pogranicza chirurgii stomatologicznej, bo często tylko w ten sposób możemy zatrzymać proces niszczenia tkanek utrzymujących ząb w kości.
+  <br /><br />
+<b>Periodontologia</b> zajmuje się również problemami estetycznymi dziąseł m.in. plastyką dziąseł, kości wyrostka, leczeniem recesji dziąseł.
+  <br /><br />
+<b>Poliklinika Stomatologiczna "Pod Szyndzielnią"</b> oferuje swoim pacjentom kompleksowe leczenie periodontologiczne od podstawowego instruktażu higieny jamy ustnej, poprzez zabieg usunięcia złogów kamienia nazębnego za pomocą skalera ultradźwiękowego, do specjalistycznych zabiegów chirurgicznych na tkankach przyzębia przy zaawansowanych stadiach choroby.
+   <br /><br />
+Oczywiście wszystkie te zabiegi wykonujemy całkowicie bezboleśnie w znieczuleniu.
+
+ ]]>
+         </description>
+  </modul>     
+  
+  <modul>  
+  	<id>7</id>
+	<min_picture>range/img/7.png</min_picture>
+	<title>Pedodoncja</title>  
+	<description_short>Zajmuje się leczeniem najmłodszych pacjentów. Nasi specjaliści, dzięki  doświadczeniu, cierpliwości i przygotowaniu psychologicznemu, potrafią przełamać opór dziecka, a nawet sprawić, że samo będzie pytać o następną wizytę.</description_short> 
+	<picture>range\img\dziecieca.jpg</picture>
+	<description>
+            <![CDATA[
+       <b>Pedodoncja</b> zajmuje się leczeniem <b>najmłodszych pacjentów</b>. Dzieci często boją się wizyt dentystycznych, zwłaszcza jeśli miały złe doświadczenia, lub usłyszały coś, co wywołało w nich strach. Na szczęście nasi specjaliści, dzięki  doświadczeniu, cierpliwości i przygotowaniu psychologicznemu, potrafią przełamać opór dziecka, a nawet sprawić, że samo będzie pytać o następną wizytę.
+        <br /><br />
+Ważne jest, aby dziecko od najmłodszych lat przyzwyczajało się do wizyt u lekarza stomatologa, a pierwsza wizyta powinna odbyć się ok. 1 roku życia. Pozwala to na zastosowanie skutecznej profilaktyki i należyte dbanie o zęby dziecka. Regularne wizyty kontrolne powinny odbywać się co pół roku. Należy pamiętać, że dbanie o zęby mleczne decyduje o zdrowiu zębów stałych. Zdrowe "mleczaki" zapobiegają wadom zgryzu, przenoszeniu się próchnicy na zęby stałe w okresie mieszanego uzębienia, uszkodzeniom rozwijających się  zawiązków zębów stałych pod zębami mlecznymi. Przy zabiegach stosujemy wysokiej jakości znieczulenia i żele minimalizujące ból przy wykonywaniu znieczulenia miejscowego. Dodatkowo w swojej ofercie mamy wypełnienia kolorowe, tak upodobane przez małych pacjentów. Pracując z dziećmi dbamy o ich zdrowy, a przede wszystkim radosny uśmiech.
+        <br /><br />
+O zęby najmłodszych dbamy ponadto organizując od 1999 roku akcje profilaktyki próchnicy dla dzieci z bielskich szkół.
+             ]]>
+
+         </description>
+  </modul>     
+  
+  <modul>  
+  	<id>8</id>
+	<min_picture>range/img/8.png</min_picture>
+	<title>Ortodoncja</title>  
+	<description_short>To dyscyplina stomatologiczna zajmująca się leczeniem wad zgryzu, czyli mówiąc potocznie prostowaniem zębów. Jej zadaniem, jest nie tylko poprawa estetyki uśmiechu, ale również warunków czynnościowych zgryzu.</description_short> 
+	<picture>range\img\ortodoncja.jpg</picture>
+	<description>
+       <![CDATA[
+    <b>Ortodoncja</b> to dyscyplina stomatologiczna zajmująca się leczeniem wad zgryzu, czyli mówiąc potocznie prostowaniem zębów. Jej zadaniem, jest nie tylko poprawa estetyki uśmiechu, ale również warunków czynnościowych zgryzu. Wady zgryzu są bowiem prawdziwym zagrożeniem dla zdrowia narządu żucia, powodując nasilenie próchnicy, rozwój chorób przyzębia (paradontoza) oraz schorzenia stawów skroniowo- żuchwowych. Leczenie ortodontyczne prowadzi się zarówno u dzieci, jak i u dorosłych.
+      <br /><br />
+Najogólniejszy podział aparatów ortodontycznych wyróżnia aparaty ruchome i stałe. Te pierwsze stosujemy zazwyczaj u dzieci, a skuteczność ich działania zależy w znacznym stopniu od współpracy pacjenta, tzn. od tego czy aparat jest noszony 16 h/dobę. Aparaty stałe mogą być przyklejane na powierzchnię wargową lub wewnętrzną, językową zębów (aparaty lingwalne). Aparaty stałe w zależności od materiału użytego do ich produkcji występują w wersji metalowej lub estetycznej (np. porcelanowej lub z monokryształu).
+      <br /><br />
+Ładny uśmiech to nie tylko zęby zdrowe, białe, ale i proste.
+        <br /><br />
+Jeżeli pragniesz, aby Twój zdrowy uśmiech skupiał uwagę i podziw innych, lub po prostu chcesz się dobrze z nim czuć na co dzień, zaufaj naszym specjalistom i sprawdź nasze możliwości.
+        ]]>
+
+         </description>
+  </modul>     
+  
+  <modul>  
+  	<id>9</id>
+	<min_picture>range/img/9.png</min_picture>
+	<title>Stomatologia odmładzająca</title>  
+	<description_short>Nastawiona jest na profilaktykę starzenia poprzez dbanie o zdrowe zęby, gdyż zmiany w uzębieniu są główną przyczyną pojawienia się zmarszczek i deformacji twarzy. W ramach tej specjalizacji dysponujemy całą gamą rozwiązań dostosowanych do indywidualnych potrzeb i oczekiwań pacjentów.</description_short> 
+	<picture>range\img\antiaging.jpg</picture>
+	<description>
+        <![CDATA[
+
+
+         Zęby wcześniej niż wzrok i skóra zdradzają upływ czasu. Dlatego już w młodości, a napewno około 40 roku życia, powinniśmy zacząć walkę ze starzeniem uzębienia, podobnie jak to czynimy ze skórą twarzy stosując kremy przeciwzmarszczkowe.
+          <br /><br />
+Zdaniem wielu ekspertów to  jednak od zębow należy rozpocząć profilaktykę starzenia, gdyż zmiany w uzębieniu są główną przyczyną pojawienia się zmarszczek i deformacji twarzy.
+          <br /><br />
+Zęby są rusztowaniem dla tkanek miękkich ust czy policzków, stąd ścieranie  zębów lub ich utrata powodują również utratę oparcia dla skóry i mięśni twarzy, które szybko wiotczeją.
+        <br /><br />
+Istotne są także  zmiany w wyglądzie samych zębów- najczęstsze to przebarwienia spowodowane nawykami żywieniowymi, czy dodatkowo przyspieszone przez proces ścierania.
+Dziąsła również, cofając się,  zdradzają upływ lat.
+          <br /><br />
+Rozwiązaniem typowym dla ?dojrzałego? uśmiechu jest stomatologia odmładzająca ? ANTI AGING DENTISTRY, dysponująca całą gamą rozwiązań dostosowanych do indywidualnych potrzeb i oczekiwań pacjentów.
+           <br /><br /><br /><br />
+<b>MEDYCYNA PROFILAKTYCZNA</b>
+           <br /><br />
+<b>Medycyna profilaktyczna</b> pozwala zachować zdrowie, dobre samopoczucie i atrakcyjny wygląd również w kwiecie wieku.
+           <br /><br />
+Jednym z najważniejszych ?narzędzi? wykorzystywanym w medycynie zapobiegawczej, pozwalającym na zidentyfikowanie niedoboru lub nadmiaru określonych elementów biologicznych
+w organiźmie, jest ultranowoczesne badanie laboratoryjne, stanowiące podstawę do opracowania indywidualnego profilu biologicznego pacjenta, zwanego profilaktycznym bilansem biologicznym (PBB).
+Pozwala on ocenić stan pacjenta oraz poziom jego zdolności dostosowania się do zmian środowiskowych.
+           <br /><br />
+Ta nowoczesna metoda badania zaburzeń równowagi wielu procesów metabolicznych organizmu i związanych z tym ryzyk chorobowych wykorzystuje badania krwi realizowane wg najnowszych technologii w laboratoriach belgijskich. Bilanse biologiczne są bardzo przydatne przy ustalaniu indywidualnych zaleceń profilaktyki pierwotnej i wtórnej w obszarach m. in. chorób sercowo ? naczyniowych, cywilizacyjnych, chorób mózgu, układu pokarmowego, osteoporozy, AMD (zwyrodnienie plamki żółej).
+           <br /><br />
+Dzięki zastosowaniu unikalnej technologii diagnostycznej wyniki badań zwracają uwagę na istniejące problemy metaboliczne o wiele miesięcy, a nawet lat, wcześniej niż to jest możliwe przy zastosowaniu tradycyjnych analiz krwi. Pozwalają formułować zalecenia ewentualnych korekt obecnego leczenia oraz wspomagania leczenia przez zmianę zasad odżywiania i przyjmowania suplementów diety ? dla każdego pacjenta indywidualnie.
+
+
+
+
+          ]]>
+      </description>
+
+
+
+
+
+
+
+  </modul>     
+
+
+
+</range>

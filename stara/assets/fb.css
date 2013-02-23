@@ -1,0 +1,18 @@
+	#fb
+	{
+	width: 245px;
+	height: 383px;
+	top: 30%;
+	right: -200px;
+	position: fixed;
+	padding: 0px;
+	background: url("fb.png") no-repeat;
+	}
+
+	#fb iframe
+	{
+	width: 199px;
+	left: 10px;
+	height: 383px;
+	float: right;
+	}

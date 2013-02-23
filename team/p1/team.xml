@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE team SYSTEM "mult.dtd">
+
+<team>  
+  <person>  
+  	<id>1</id>
+	<img>team/p1/1.png</img> 
+	<name>Claudius Becker</name>  
+	<degree>dr n. med.&lt;br&gt;lek. med. i lek. dent.&lt;br&gt;otolaryngolog i stomatolog</degree> 
+	<descrition>Współwłaściciel i współzałożyciel Polikliniki Stomatologicznej " Pod Szyndzielnią , zajmuje się organizacją, zarządzaniem i marketingiem</descrition>
+	<studies>Śląska Akademia Medyczna&lt;br&gt;Wydział lekarski&lt;br&gt;Oddział stomatologii</studies>
+	<hobby>Management medyczny&lt;br&gt;Chirugia implantologiczna&lt;br&gt;Profilaktyka dzieci i młodzieży</hobby>
+	<hobby1>Myślistwo, architektura, muzyka klasyczna, malarstwo</hobby1>
+  </person>  
+  <person>  
+  	<id>2</id>
+	<img>team/p1/5.jpg</img> 
+	<name>Katarzyna Becker</name>  
+	<degree>dr n. med.&lt;br&gt;lek. dent.&lt;br&gt;specjalista ortodonta</degree> 
+	<descrition>Współwłaściciel i współzałożyciel Polikliniki  Stomatologicznej " Pod Szyndzielnią" , zajmuje się leczeniem pacjentów i kształceniem podyplomowym lekarzy</descrition>
+	<studies>Śląska Akademia Medyczna</studies>
+	<hobby>Estetyka w ortodoncji&lt;br&gt;Leczenie interdyscyplinarne&lt;br&gt;Mikroimplanty</hobby>
+	<hobby1>Sport (joga, narciarstwo alpejskie, tenis ziemny, pływanie), kuchnia, podróże</hobby1>
+  </person>    
+  <person>  
+  	<id>3</id>
+	<img>team/p1/6.jpg</img> 
+	<name>Małgorzata Sanecka</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Collegium Medicum Uniwersytet Jagielloński</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Endodoncja&lt;br&gt;Protetyka</hobby>
+	<hobby1>Sport - tenis, narciarstwo&lt;br&gt;Wędrówki górskie&lt;br&gt;Muzyka - gra na fortepianie</hobby1>
+  </person>    
+  <person>  
+  	<id>4</id>
+	<img>team/p1/12.jpg</img> 
+	<name>Bartłomiej Mrowiec</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwersytet Medyczny</studies>
+	<hobby>Stomatologia odtwórcza&lt;br&gt;Implantoprotetyka</hobby>
+	<hobby1>Podróże&lt;br&gt;Żeglarstwo</hobby1>
+  </person>  
+  <person>  
+  	<id>5</id>
+	<img>team/p1/4.jpg</img> 
+	<name>Izabela Kowol</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląska Akademia Medyczna</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Endodoncja&lt;br&gt;Chirurgia stomatologiczna i szczękowo-twarzowa</hobby>
+	<hobby1>Malowanie obrazów, aranżacja wnętrz, podróże, projektowanie i szycie ubrań</hobby1>
+  </person>          
+  <person>  
+  	<id>6</id>
+	<img>team/p1/2.jpg</img> 
+	<name>Aleksandra Staszel-Zając</name>
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląska Akademia Medyczna</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Chirurgia&lt;br&gt;Endodoncja </hobby>
+	<hobby1>Sport - narciarstwo&lt;br&gt;Wędrówki górskie</hobby1>
+  </person>           
+  <person>  
+  	<id>7</id>
+	<img>team/p1/3.jpg</img> 
+	<name>Agnieszka Kraus</name>
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląska Akademia Medyczna</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Endodoncja&lt;br&gt;Protetyka</hobby>
+	<hobby1>Literatura (komiks, fantasy)
+podróże, sport (taniec - jazz, modern, hip-hop, windsurfing, żeglarstwo, snowboard, narciarstwo)</hobby1>
+  </person>            
+  <person>  
+  	<id>8</id>
+	<img>team/p1/7.jpg</img> 
+	<name>Katarzyna Hędrzak</name>
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwersytet Medyczny</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Ortodoncja</hobby>
+	<hobby1>fitness, wspinaczka, narciarstwo</hobby1>
+  </person>           
+  <person>
+  	<id>9</id>
+	<img>team/p1/11.jpg</img> 
+	<name>Anna KOWAL</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwersytet Medyczny</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Chirurgia stomatologiczna</hobby>
+	<hobby1>podróże, fotografia, kino niezależne, narciarstwo, trekking</hobby1>
+  </person>
+  <person>  
+  	<id>10</id>
+	<img>team/p1/1.jpg</img> 
+	<name>Paweł Zimny</name>  
+	<degree>lek. dent. - implantolog&lt;br&gt;Specjalista protetyki stomatologicznej i stomatologii ogólnej&lt;br&gt;&lt;br&gt;"Kompetencja w stomatologii"</degree> 
+	<descrition></descrition>
+	<studies>Wojskowa Akademia Medyczna w Łodzi</studies>
+	<hobby>Implantologia&lt;br&gt;Zaawansowane techniki stomatologiczne</hobby>
+	<hobby1>Życie dzikich kotów Afryki</hobby1>
+  </person>          
+  <person>  
+  	<id>11</id>
+	<img>team/p1/9.jpg</img> 
+	<name>Ewelina Stykowska</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwerystet Medyczny </studies>
+	<hobby>Protetyka&lt;br&gt;Chirurgia stomatologiczna&lt;br&gt;Stomatologia estetyczna</hobby>
+	<hobby1>gra na wiolonczeli, rysunek, wycieczki górskie, jazda na nartach</hobby1>
+  </person>  
+  <person>  
+  	<id>12</id>
+	<img>team/p1/10.jpg</img> 
+	<name>Alicja Wandzel</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwersytet Medyczny</studies>
+	<hobby>Periodontologia, szczególnie chirurgia śluzówkowo - dziąsłowa</hobby>
+	<hobby1>muzyka (jazz, fado), teatr, jogging, jazda na rowerze</hobby1>
+  </person>    
+  <person>  
+  	<id>13</id>
+	<img>team/p1/8.jpg</img> 
+	<name>Damian Boba</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwerystet Medyczny</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Chirurgia stomatologiczna&lt;br&gt;Endodoncja</hobby>
+	<hobby1>literatura - powieść kryminalna, trekking, narciarstwo alpejskie, siatkówka</hobby1>
+  </person>    
+  <person>  
+  	<id>14</id>
+	<img>team/p1/16.png</img> 
+	<name>Dominika Bartoszek</name>  
+	<degree>lek. dent.</degree> 
+	<descrition></descrition>
+	<studies>Śląski Uniwersytet Medyczny</studies>
+	<hobby>Stomatologia estetyczna&lt;br&gt;Endodoncja&lt;br&gt;Periodontologia</hobby>
+	<hobby1>muzyka i taniec, podróże, jazda na rowerze</hobby1>
+  </person>      
+</team>  

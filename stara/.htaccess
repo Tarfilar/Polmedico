@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteBase /stara/
+
+
+RewriteRule ^$ records.php [L]
+
+
+rewritecond %{http_host} ^www.polmedico.com/stara [nc]
+rewriterule ^(.*)$ http://www.polmedico.com/stara/$1 [r=301,nc]
+
+rewritecond %{http_host} ^www.polmedico.pl [nc]
+rewriterule ^(.*)$ http://www.polmedico.com/$1 [r=301,nc]
+
+
+RewriteRule ^n([0-9]+)\.(.*)\.([0-9]+)\.html$ news.php?groupId=$1&nId=$3 [L]
+RewriteRule ^n([0-9]+)\.(.*)\.html$ news.php?groupId=$1 [L]
+
+
+RewriteRule ^(.*)\.([0-9]+)/(.*)\.([0-9]+)\.html$ gallery.php?groupId=$2&galCatId=$4 [L]
+RewriteRule ^(.*)\.([0-9]+)/$ gallery.php?groupId=$2 [L]
+
+RewriteRule ^([0-9]+)\.(.*)\.html$ index.php?groupId=$1 [L]
+
+RewriteRule ^(.*)\.([0-9]+)\.([0-9]+)\.(.*)\.([0-9]+)\.html$ products.php?groupId=$2&catId=$3&prId=$5 [L]
+RewriteRule ^(.*)\.([0-9]+)\.(.*)\.([0-9]+)\.html$ products.php?groupId=$2&prId=$4 [L]
+RewriteRule ^(.*)\.([0-9]+)\.([0-9]+)\.html$ products.php?groupId=$2&catId=$3 [L]
+RewriteRule ^(.*)\.([0-9]+)\.html$ products.php?groupId=$2 [L]

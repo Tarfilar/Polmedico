@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<view>
+	<overallSettings
+		key="DICTUSER"
+		table="dictionaries"
+		primaryField="id"
+        listJoin="dictionaries dict"
+        />
+
+	<fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="L" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C"  sortable="1" show="L" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Opis" type="C"  sortable="0" show="L" search="S" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

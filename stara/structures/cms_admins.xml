@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="US"
+		table="cms_admins"
+		primaryField="id"
+        listJoin="cms_admins u LEFT JOIN cms_rightgroups cr ON u.rightgroupid=cr.id" 
+        />
+    <fields>
+		<field name="id" listSql="u.id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="rightgroupid" listSql="cr.description" description="Grupa praw" type="O" structure="cms_rightgroups" sqlDescription="description" sortable="1" show="FL" align="L" formwidth="60" />
+		<field name="name_surname" listSql="name_surname" description="Imię i nazwisko" type="C"  sortable="1" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="login" description="Login" type="C"  sortable="0" show="FL" search="S" required="1" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+		<field name="phone" description="Telefon" type="C"  sortable="1" show="FL" required="0" align="C" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" sortable="1" show="FL" search="" required="1" align="C" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

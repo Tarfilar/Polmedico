@@ -1,0 +1,18 @@
+	#nk
+	{
+	width: 245px;
+	height: 383px;
+	top: 30%;
+	left: -210px;
+	position: fixed;
+	padding: 0px;
+	background: url("nk.png") no-repeat;
+	}
+
+	#nk iframe
+	{
+	width: 200px;
+	right: -10px;
+	height: 383px;
+	float: left;
+	}

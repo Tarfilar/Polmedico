@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Elementy zamówienia"
+		table="cms_orderselements"
+		primaryField="id"
+        listJoin="cms_orderselements orde LEFT JOIN cms_products pr ON orde.productId=pr.id"
+        />
+    <fields>
+		<field name="id" listSql="orde.id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="productid" listSql="CONCAT(pr.name,' (', pr.id,')')" description="Produkt" type="O" required="1" structure="cms_product" sqlDescription="name" sortable="1" show="FL" align="L" formwidth="60" />
+		<field name="size" listSql="orde.size" description="Rozmiar" type="N" sortable="" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="price" listSql="orde.price" description="Cena" type="N" sortable="1" show="FL" required="1" search="S" align="R" formwidth="60" formheight="10" />
+		<field name="quantity" description="Ilość" type="N"  sortable="1" show="FL" required="1" align="R" formwidth="20" formheight="10" />
+		<field name="pricequantity" description="Suma" type="N"  sortable="1" show="FL" required="1" align="R" formwidth="20" formheight="10" />
+	</fields>
+</view>
+

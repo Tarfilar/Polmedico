@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Grupy użytkowników"
+		key="CMS_RIGHTS"
+		table="cms_rightgroups"
+		primaryField="id"
+        listJoin="cms_rightgroups c_rg"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="description" description="Opis" type="C"  sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

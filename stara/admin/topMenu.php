@@ -1,0 +1,63 @@
+<?
+
+$topMenu = array(
+
+	array("MENU", "Menu",
+		array(
+			array("MENU.SIDE","Menu boczne", "cmsmenu.php?cmsMenuPlace=_left"),
+			array("MENU.TOP","Menu górne", "cmsmenu.php?cmsMenuPlace=_top"),
+			array("MENU.BOTTOM","Menu dolne", "cmsmenu.php?cmsMenuPlace=_bottom"),
+			array("MENU.TOPTOP","Menu nagłówek", "cmsmenu.php?cmsMenuPlace=_top_top")
+		)
+	),
+	
+	array("NEWS", "Aktualności i strona głowna",
+		array(
+			array("NEWS","Aktualności", "news.php"),
+			array("NEWS","Bloczki tekstowe ze zdjęciami", "records.php")
+		)
+	
+	),
+	array("GALLERY", "Galeria zdjęć",
+		array(
+			array("GALLERY","Zdjęcia", "gallery.php"),
+			array("GALLERY.CATEGORIES","Galeria - kategorie", "gallery_categories.php")
+		)
+	),
+	array("STORE", "Produkty",
+		array(
+			array("STORE","Katalog produktów", "products.php"),
+			array("STORE.CATEGORIES","Kategorie produktów", "products_categories.php"),
+			array("STORE.BRANDS","Artyści", "brands.php"),
+			array("STORE.ORDERS","Zamówienia", "orders.php"),
+			array("STORE.CLIENTS","Klienci", "clients.php")
+		)
+	),
+
+	array("OTHER", "Pozostałe",
+		array(
+			array("OTHER.NEWSLETTER","Newsletter","newsletter.php?function=send.start"),
+			array("OTHER.SETTINGS","Ustawienia systemowe","conftable.php"),
+			array("OTHER.SETTINGS","Teksty różne","texts.php")
+		)
+	),
+
+	array("", "Pomoc", "index.php"
+	),
+	
+	array("SUPERVISOR", "Supervisor menu",
+		array(
+			array("SUPERVISOR","Użytkownicy", "users.php"),
+			array("SUPERVISOR","Użytkownicy - grupy praw", "rightgroups.php"),
+			array("SUPERVISOR","Słowniki", "dictionaries.php"),
+			array("SUPERVISOR","Pomoc - definiowanie", "help.php"),
+			array("SUPERVISOR","Ustawienia systemowe", "conftable.php"),
+			array("SUPERVISOR","Zamówienia - def. transportu", "ordersShipping.php"),
+			array("SUPERVISOR","Języki", "languages.php")
+		)
+	)
+
+
+);
+
+?>

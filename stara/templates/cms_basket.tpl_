@@ -1,0 +1,36 @@
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="naglowek">{BASKETTITLE}</td>
+          </tr>
+          <tr>
+            <td class="center">
+                <form action="shoppingCart.php" method="post" id="shoppingCartForm">
+	            <table width="100%"  border="0" cellspacing="2" cellpadding="2">
+	            	<tr>
+	            		<td width="350" bordercolor="#080808" class="tab-nagl">Nazwa</td>
+	            		<td width="60" bordercolor="#080808" class="tab-nagl">Cena</td>
+	            		<td width="10" bordercolor="#080808" class="tab-nagl">Iloœæ</td>
+	            		<td width="78" bordercolor="#080808" class="tab-nagl">Suma</td>
+	            		<td width="20" bordercolor="#080808" class="tab-nagl"></td>
+	            	</tr>
+	            {BASKETCONTENT}
+	            	<tr>
+	            		<td colspan="3" align="right" class="tab-kom"><b>Suma: </b></td>
+	            		<td class="tab-kom" align="right">{BASKETTOTAL}</td>
+	            	</tr>
+	            	<tr>
+	            		<td colspan="4">
+	            		<input class="submit2" onClick="javascript: history.back();" type="button" style="width: 80px;" value="Kontynuuj">&nbsp;
+	            		<input class="submit2" onClick="javascript: location.replace('{BASKETREMOVEALLHREF}');" type="button" style="width: 100px;" value="Opró¿nij koszyk">&nbsp;
+	            		<input class="submit2" type="submit" style="width: 90px;" value="Przelicz iloœci">&nbsp;
+	            		<input type="hidden" name="action" value="recount">
+	            		<input class="submit2" onClick="javascript: location.replace('{BASKETORDERHREF}');" type="button" style="width: 150px; background-color: #d3b45c; font-weight: bold;" value="Finalizuj zamówienie">
+	            		</td>
+	            	</tr>
+				</table>
+				</form>
+			</td>
+      	  </tr>
+    	</table>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="CMS_MENU_CONTACT"
+		table="cms_contact"
+		primaryField="id"
+        listJoin="cms_contact c_contact"
+		languages="1"
+        />
+    <fields>
+		<field name="imie_nazwisko" description="First name, last name" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="firma" description="Company" type="C" sortable="0" show="FL" required="" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="adres" description="Address" type="C" sortable="0" show="FL" required="" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="telefon" description="Phone" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="email" description="E-mail" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="temat" description="Subject" type="C" sortable="0" show="FL" default="Zapytanie ofertowe" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="informacja" description="Message" type="T" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+	</fields>
+</view>
+

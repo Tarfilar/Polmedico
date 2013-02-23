@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Galeria zdjęć"
+		key="CMS_MENU_GAL"
+		table="cms_gallery"
+		primaryField="id"
+        listJoin="cms_gallery c_gallery"
+        orderSql="lp"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+    	<field name="category" description="Kategoria" type="V" dictionary="CMS_GalleryCategories" sortable="1" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="name" description="Nazwa" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="pic1" description="Obrazek" descriptionForm="Obrazek 1 (format *.jpg) z dodanego pliku utworzą się mianiatury - 192px, 192px, 600px" type="P" sortable="0" show="FL" createth="1" bigsize="600" xml="1" thsize="192" medsize="192" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

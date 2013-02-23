@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="CMS_MENU_CONTACT"
+		table="cms_contact"
+		primaryField="id"
+        listJoin="cms_contact c_contact"
+		languages="1"
+        />
+    <fields>
+		<field name="imie_nazwisko" description="Imię i Nazwisko" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="firma" description="Firma" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="adres" description="Adres" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="miasto" description="Miasto" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="telefon" description="Telefon" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="email" description="E-mail" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="30" formheight="10" />
+		
+
+		<field name="caption" description="&lt;br&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="caption" description="&lt;b&gt;Deklaracja udziału w obchodach - udział, nazwa wydarzenia (koszt)&lt;/b&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="wyjazd_krakow" description="Wyjazd do Krakowa (20 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="msza" description="Msza Święta (-)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="akademia" description="Akademia w teatrze (-)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="balbb" description="Bal Absolwentów w B-B (200 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="balkat" description="Bal Katowice Dzieciom (300 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="obiad" description="Obiad (35 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="uroczystosci" description="Uroczystości w szkole (-)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="sztafeta" description="Sztafeta Pokoleń (-)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="mecz" description="Mecz siatkówki (-)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="medal" description="Medal Pamiątkowy (5 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="wydawnictwo" description="Wydawnictwo Okolicznościowe (25 zł)" langreadonly="1" type="B" sortable="1" show="LF" required="0" align="L" formwidth="60" formheight="10" />	
+
+		<field name="caption" description="&lt;br&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="caption" description="&lt;b&gt;Sponsoring&lt;/b&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="sponsoring_suma" description="Posiadam możliwość sponsorowania (jeśli tak wpisz kwotę)" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="sponsoring_polecam" description="Polecam sponsora (jeśli tak wpisz nazwę)" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+
+		<field name="caption" description="&lt;br&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />	
+		<field name="caption" description="&lt;b&gt;Rezerwacja hotelu&lt;/b&gt;" type="E" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="hotel_elektron" description="Hotel Elektron (20 zł) - podaj ilość miejsc" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		<field name="hotel_prezydent" description="Hotel Prezydent (200 zł) - podaj ilość miejsc" type="C" sortable="0" show="FL" required="0" search="S" align="L" formwidth="30" formheight="10" />
+		</fields>
+</view>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="PCA"
+		table="cms_products_categories"
+		primaryField="id"
+		name="Kategorie produktów" 
+        listJoin="cms_products_categories cpc"
+		orderSql="lp"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="name" description="Nazwa" type="C"  sortable="1" show="FL" search="S" required="1" align="L" formwidth="60" formheight="10" />
+		<field name="level" description="Poziom" type="V"  show="" required="1" align="L" langreadonly="1" formwidth="60" formheight="10" />
+		<field name="pic1" description="Obrazek" type="P" sortable="0" show="FL" bigsize="800" xml="1" thsize="128" thsize_="66" thsquare="" th1size="83" th1square="1" medsize="400" required="" search="" ext="jpg" langreadonly="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>

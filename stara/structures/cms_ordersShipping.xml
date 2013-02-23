@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Definicje kosztów transportu"
+		key="ORD"
+		table="cms_ordersshipping"
+		primaryField="id"
+        listJoin="cms_ordersshipping" 
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="1" show="FL" required="" align="C"/>
+		<field name="keyvalue" description="Rodzaj" type="V"  dictionary="CMS_OrdersShippingOptions" sortable="" show="FL" search="" required="1" align="L" readonly="0" readonlyedit="0" formwidth="60" formheight="10" />
+		<field name="shippingcost" description="Koszt zwykły" type="N" dictionary="" sortable="" show="FL" required="" align="C"/>
+		<field name="handlingfee" description="Dodatkowo" type="N" required="0" readonlyedit="0" show="FL" align="L" formwidth="60" />
+		<field name="shippingtable" description="Tabela przeliczeń" type="T" show="FL" search="" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="tablemethod" description="Metoda przeliczania" type="C"  sortable="0" show="FL" xml="1" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="V"  dictionary="YesNo" sortable="0" show="FL" search="" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

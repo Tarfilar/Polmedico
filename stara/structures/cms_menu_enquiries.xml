@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		key="CMS_MENU_ENQUIRY"
+		table="cms_enquiries"
+		primaryField="id"
+        listJoin="cms_enquiries c_enq"
+		languages="1"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" required="" align="C"/>
+		<field name="title" description="Tytuł" type="C" sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="textvalue" description="Treść html nad formularzem" type="A" toolbarset="Default" show="F" align="L" formwidth="600" formheight="600" />
+		<field name="xmlfile" description="Plik xml ze strukturą" langreadonly="1" type="C" readonlyEdit="1" sortable="1" show="LF" required="1" align="L" formwidth="60" formheight="10" />
+	</fields>
+</view>
+

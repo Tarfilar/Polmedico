@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Pomoc"
+		key="HELP"
+		table="cms_help"
+		orderSql="lp"
+		primaryField="id"
+        listJoin="cms_help ch"
+        xmlGeneration="0"
+		lp="1"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="keyvalue" description="Klucz (prawo)" type="C"  sortable="0" show="FL" required="" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="title" description="Tytuł" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="href" description="Href (a name)" type="C"  sortable="0" show="F" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="textvalue" description="Treść" type="A" toolbarset="BasicWHTML" show="F" align="L" formwidth="400" formheight="300" />
+	</fields>
+</view>
+

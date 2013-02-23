@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<overallSettings
+		description="Aktualności"
+		key="CMS_NEWS"
+		table="cms_news"
+		primaryField="id"
+        listJoin="cms_news c_news"
+
+        orderSql="dateact DESC"
+        xmlGeneration="0"
+        xmlfile="cms_news.xml"
+		languages="1"
+		langtableprefix = "c_news"
+        />
+    <fields>
+		<field name="id" description="L.p." type="C" dictionary="" sortable="0" show="FL" xml="1" required="" align="C"/>
+		<field name="place" description="Miejsce" type="V" dictionary="CMS_NewsPlaces" default="MAIN" sortable="0" show="LF" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="title" description="Tytuł" type="C"  sortable="0" show="FL" required="1" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="dateact" listSql="SUBSTRING(dateact,1,10)" description="Data" type="D" langreadonly="1" default="%actual_date%" sortable="0" show="FL" required="0" search="S" align="L" formwidth="60" formheight="10" />
+		<field name="isactive" description="Aktywny?" type="B"  dictionary="YesNo" sortable="0" langreadonly="1" show="FL" search="" required="0" align="L" formwidth="60" formheight="10" />
+		<field name="desclong" description="Pełna wiadomość" type="A" toolbarset="Default" show="F" align="L" xml="1" formwidth="750" formheight="700" />
+		
+		
+	</fields>
+</view>
+
